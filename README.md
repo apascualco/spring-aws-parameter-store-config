@@ -1,1 +1,1 @@
-# spring-aws-parameter-store-config
+docker run -it -p8080:8080 -e SPRING_PROFILES_ACTIVE=dev,extra -e AWS_REGION=REGION -e AWS_ACCESS_KEY_ID=KEY_ID -e AWS_SECRET_ACCESS_KEY=ACCESS_KEY apascualco
